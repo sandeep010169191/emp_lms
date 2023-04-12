@@ -1,0 +1,21 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUm91bmFrIiwiaWF0IjoxNjgxMzMxNTE4fQ.RhsuRuQ1vfZzWPW0FVQ2SHA0WqYoyJzPK5aWEGtpIXg
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Suman"
+}
+
+###
+
+POST http://localhost:3000/api/applyLeave
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUm91bmFrIiwiaWF0IjoxNjgxMzMxNTE4fQ.RhsuRuQ1vfZzWPW0FVQ2SHA0WqYoyJzPK5aWEGtpIXg
+
+###
+
+POST http://localhost:3000/api/approveLeave
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUm91bmFrIiwiaWF0IjoxNjgxMzMxNTE4fQ.RhsuRuQ1vfZzWPW0FVQ2SHA0WqYoyJzPK5aWEGtpIXg
